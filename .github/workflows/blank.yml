@@ -4,7 +4,6 @@ on:
 jobs:
   Contruir:
     runs-on: ubuntu-latest
-
     steps:
       - name: Run a one-line script
         run: echo Hello, world!
@@ -14,7 +13,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo Auto, Antonio Casa.
-Deployar:
+  Deployar:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy

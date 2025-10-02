@@ -23,12 +23,3 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo Auto, Antonio Casa.
-Deployar:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Runs a single command using the runners shell
-      - name: Deploy
-        run: echo Estoy haciendo un deploy

@@ -2,7 +2,7 @@ name: workflow1
 on:
   push:
 jobs:
-  Contruir:
+  Construir:
     runs-on: ubuntu-latest
     steps:
       - name: Run a one-line script
@@ -15,7 +15,7 @@ jobs:
           echo Auto, Antonio Casa.
   Deployar:
     runs-on: ubuntu-latest
-    ##needs: Construir
+    needs: Construir
     steps:
       - name: Deploy
         run: echo Estoy haciendo un deploy
